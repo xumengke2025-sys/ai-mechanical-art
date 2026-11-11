@@ -1,0 +1,131 @@
+{
+  "name": "brass-mechanical-animation",
+  "version": "1.0.0",
+  "files": [
+    {
+      "path": "agents/openai.yaml",
+      "bytes": 315,
+      "sha256": "be0b458d8d4743b8184e961e5269c888acdc6116efb0257f6ac2f1d39ea0d2be"
+    },
+    {
+      "path": "assets/reference/eighteenth-century-sample.mp4",
+      "bytes": 23181774,
+      "sha256": "65b5dfcb2c6e2b13c716f6628c63c18e106d6a33a16c468c809216d9ea87e268"
+    },
+    {
+      "path": "assets/reference/final-decoded-18.4.png",
+      "bytes": 1492165,
+      "sha256": "0299df866a190e0769ca324dd878e104cc2e49706c83a9f7dbb205623a351a9b"
+    },
+    {
+      "path": "assets/template/config.json",
+      "bytes": 201,
+      "sha256": "f8498a85f5021587227019ba3cf2cd7fe1e56a12361ddafecf8f3458ba9ef9f3"
+    },
+    {
+      "path": "assets/template/index.html",
+      "bytes": 605,
+      "sha256": "428cb05ddf40ba5f3876fbfea95f28bddc1106537b4b7d959e9ad4ba9b6a36df"
+    },
+    {
+      "path": "assets/template/package-lock.json",
+      "bytes": 9596,
+      "sha256": "2f28d3a07d6597cae34bf3834fda85f6f88845817ea4dd74fd446922675459ce"
+    },
+    {
+      "path": "assets/template/package.json",
+      "bytes": 502,
+      "sha256": "8cf23c92dcf5061c35c975286c0cb6aa66f974934a18f8063fbc5625ce7e0017"
+    },
+    {
+      "path": "assets/template/scene.js",
+      "bytes": 24101,
+      "sha256": "eeb1220edcac9cdcc7cf925c88caec7ffd6e514e2203d68274570b29861c3b46"
+    },
+    {
+      "path": "assets/template/vendor/LICENSE-three.txt",
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    {
+      "path": "assets/template/vendor/RoomEnvironment.js",
+      "bytes": 4960,
+      "sha256": "55f466192cc84298755a424c5e040345006b2ee1455589b3b54126c2ea4123f4"
+    },
+    {
+      "path": "assets/template/vendor/RoundedBoxGeometry.js",
+      "bytes": 6470,
+      "sha256": "c5feab96123858ed8823c889b238dc8734adab7e760e3cfd21e7f3f2f3e348e3"
+    },
+    {
+      "path": "assets/template/vendor/three.core.js",
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    {
+      "path": "assets/template/vendor/three.module.js",
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3202,
+      "sha256": "2cfaa31d1dc4fe03364c46ccb36b9125e4f068c0cbc017faf5ea65d541b6f7ab"
+    },
+    {
+      "path": "references/art-direction.md",
+      "bytes": 2548,
+      "sha256": "539024d017cb461fe39b56c4005dc1f4004f23011098f90acac1fcceca151fa5"
+    },
+    {
+      "path": "references/package-validation.json",
+      "bytes": 3340,
+      "sha256": "ddcd3583aca4483ee668fb25293b9a1b5bc5e23225c6683e20de85432d6d3585"
+    },
+    {
+      "path": "references/provenance.md",
+      "bytes": 1935,
+      "sha256": "87f8f72ace95c6b8368cdb95de4d7310dc759eb58fe8304c43e5e63cc6dcbfca"
+    },
+    {
+      "path": "references/reproduce.md",
+      "bytes": 4023,
+      "sha256": "fad8a876683cdb746278aa87dc98a3605b3615eb60094ea34c313a359f8047d7"
+    },
+    {
+      "path": "references/scene-guide.md",
+      "bytes": 3232,
+      "sha256": "9196e34fde574e2f4512e971953353ebf10c4f966122d9aa07856f5291a3cc3b"
+    },
+    {
+      "path": "references/verification.md",
+      "bytes": 1644,
+      "sha256": "b9337d42233d9e1ab0c14a6c78cac5e95f6163e4985e88b688f2ba7343f9f396"
+    },
+    {
+      "path": "scripts/check-package.cjs",
+      "bytes": 896,
+      "sha256": "1c3d91e15a5d8614eb6e43df6d3b9cd8ead9551892978cdce04a8d869767b447"
+    },
+    {
+      "path": "scripts/init-project.cjs",
+      "bytes": 895,
+      "sha256": "813aa6fc849caf9083f1dbb8a43e57bfdf7b87d07d4e585caddf64006ace4a83"
+    },
+    {
+      "path": "scripts/make-foley.cjs",
+      "bytes": 2685,
+      "sha256": "afa9279d0bfb8082ff01743165a1f8e9ed4f1f4c4883bfdfc32aa817b13762e5"
+    },
+    {
+      "path": "scripts/render.cjs",
+      "bytes": 10530,
+      "sha256": "05a2ebb3592a8f52133d889c03d9532f05961e18f024950ced8be3b9f7c2114f"
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 4185,
+      "sha256": "e923df5cb4026b3da91befe99ee06b2dcd1a9fc7740af2deafaa114896fe4c55"
+    }
+  ]
+}

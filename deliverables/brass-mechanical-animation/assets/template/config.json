@@ -1,0 +1,10 @@
+{
+  "name": "eighteenth-century-mechanism",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 24,
+  "crf": 17,
+  "preset": "fast",
+  "previewTimes": [0, 1.9, 6, 10.4, 12, 16, 18.4, 23.5]
+}

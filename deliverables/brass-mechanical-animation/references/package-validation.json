@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-19",
+  "platform": "Windows x64",
+  "node": "v24.15.0",
+  "skillValidation": "quick_validate.py passed",
+  "sourceParity": "Identical V4 scene after reversing the three portability changes (local vendor imports, configurable dimensions and mathematically equivalent default time mapping).",
+  "preview": {
+    "width": 1920,
+    "height": 1080,
+    "frames": 8,
+    "errors": [],
+    "visuallyCompared": [
+      "new source frame 18.4s",
+      "original decoded frame 18.4s"
+    ]
+  },
+  "smoke": {
+    "expected": {
+      "width": 640,
+      "height": 360,
+      "fps": 12,
+      "duration": 2,
+      "frames": 24
+    },
+    "verification": {
+      "fullDecode": true,
+      "frames": 24,
+      "decodedDuration": 2,
+      "video": "Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 640x360 [SAR 1:1 DAR 16:9], 2090 kb/s, 12 fps, 12 tbr, 12288 tbn (default)",
+      "audio": "Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 177 kb/s (default)",
+      "bytes": 570317,
+      "sha256": "92531ee9423035c97af1a8729c07c6ae7d9feef7e29545c18c1a26e46086e077"
+    },
+    "errors": []
+  },
+  "full": {
+    "expected": {
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "duration": 24,
+      "frames": 720
+    },
+    "verification": {
+      "fullDecode": true,
+      "frames": 720,
+      "decodedDuration": 24,
+      "video": "Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 7570 kb/s, 30 fps, 30 tbr, 15360 tbn (default)",
+      "audio": "Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 147 kb/s (default)",
+      "bytes": 23182351,
+      "sha256": "dbbc8773ba70f2d33f374ca1a7fd87432bbe7acdec3a506722505ee5d34eefbc"
+    },
+    "errors": [],
+    "elapsedSeconds": 62.99
+  },
+  "runtime": {
+    "playwright": "1.62.1",
+    "three": "186",
+    "browser": "System Chrome via CHROME_PATH",
+    "encoder": "Existing FFmpeg 7.1 via FFMPEG_PATH",
+    "npmInstall": "Lockfile resolved from npm; optional FFmpeg binary download was stopped due to low transfer speed. npm ci --ignore-scripts fallback validated separately. Chromium downloader not exercised; runtime used system Chrome.",
+    "freshNpmDependencies": {
+      "command": "npm ci --ignore-scripts",
+      "exitCode": 0,
+      "packages": 22,
+      "followedBySmoke": {
+        "expected": {
+          "width": 640,
+          "height": 360,
+          "fps": 12,
+          "duration": 2,
+          "frames": 24
+        },
+        "verification": {
+          "fullDecode": true,
+          "frames": 24,
+          "decodedDuration": 2,
+          "video": "Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 640x360 [SAR 1:1 DAR 16:9], 2090 kb/s, 12 fps, 12 tbr, 12288 tbn (default)",
+          "audio": "Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 177 kb/s (default)",
+          "bytes": 570317,
+          "sha256": "92531ee9423035c97af1a8729c07c6ae7d9feef7e29545c18c1a26e46086e077"
+        },
+        "errors": []
+      }
+    }
+  },
+  "limits": [
+    "No complete normal-speed audiovisual acceptance claimed.",
+    "Other operating systems not executed.",
+    "Source visual style preserved; synthesized audio is a portable reimplementation, not sample-identical."
+  ]
+}

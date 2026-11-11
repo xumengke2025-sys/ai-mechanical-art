@@ -1,0 +1,4 @@
+interface:
+  display_name: "黄铜机械动画"
+  short_description: "复刻十八世纪黄铜精密仪器动画，生成可修改三维工程与有声 MP4 成片"
+  default_prompt: "使用 $brass-mechanical-animation 复刻随包的24秒黄铜机械样片，先验证环境再导出MP4，保留可修改工程。"

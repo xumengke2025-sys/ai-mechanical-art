@@ -1,0 +1,15 @@
+{
+  "name": "audit-laboratory-film",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editable 180-second mechanical audit explainer, 1920x1080 at 30 fps",
+  "scripts": {
+    "preview": "node render.cjs --preview",
+    "verify": "node render.cjs --verify",
+    "render:first": "node render.cjs --start 0 --end 90 --out renders/part-01.mp4",
+    "render:second": "node render.cjs --start 90 --end 180 --out renders/part-02.mp4"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

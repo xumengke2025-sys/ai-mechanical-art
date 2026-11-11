@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# The portable package has a byte-level SHA256 manifest.
+/deliverables/brass-mechanical-animation/** -text
